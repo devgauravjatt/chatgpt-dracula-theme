@@ -2,6 +2,12 @@
 
 Transform your ChatGPT experience with the dark and mysterious Dracula theme! 🦇
 
+## Demo 👁
+<div class="flex-container">
+  <img src="https://i.ibb.co/KzTJB8B/Screenshot-2023-12-22-080828.png" alt="Dark-demo" width="350">
+  <img src="https://i.ibb.co/JxLbzgJ/Screenshot-2023-12-22-080751.png" alt="Light-demo" width="350">
+</div>
+
 ## Installation 🚀
 
 1. **[Download the repository](#link-to-download)**
