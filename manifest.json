@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "ChatGpt Theme",
+	"version": "0.1",
+	"description": "This is a Dracula theme for ChatGPT and auto apply the Dracula theme when you open the chat browser window.",
+	"icons": {
+		"16": "img/icon.png",
+		"32": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	"web_accessible_resources": [
+		{
+			"resources": ["css/style.css"],
+			"matches": ["https://chat.openai.com/*"]
+		}
+	],
+	"content_scripts": [
+		{
+			"js": ["scripts/content.js"],
+			"matches": ["https://chat.openai.com/*"]
+		}
+	]
+}
